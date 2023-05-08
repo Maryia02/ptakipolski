@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30pt;
+}
+.szukac{
+    margin:20px;
+    margin-left: 50px;
+}
+.container{
+   display: flex; 
+}
+.card{
+    height: 470px;
+    margin: 50px;
+    border: 1px solid black;
+}
+.card :hover{
+border: 3px solid black;
+}
+.item_1{
+    position: relative;
+}
+h2{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16pt; 
+    margin: 10px;
+}
+.img_1{
+    width: 100vw; 
+    height: auto;
+}
+div .img_1:not(:first-child) {
+    display: none;
+}
+  
+div .img_1:hover {
+    display: none;
+  }
+  
+  div .img_1:hover + .img_1 {
+    display: block;
+  }
+  
+img{
+    width: 330px;
+    height: 420px;
+}
+h3{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24pt; 
+}
+h4{
+    
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12pt;
+}
+h7{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12pt;  
+}
+.img_2{
+    height: 938px;
+    width: 1250px;
+}
+.text{
+    margin: 50px;
+}
+.p_1{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16pt; 
+}
+p{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16pt;  
+}
+.p4{
+    font-size: 12pt;
+}
+button{
+    background-color: black;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 10px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border-radius: 3px;
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+input{
+    padding: 10px 20px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+    padding: 10px;
+}
+.item_3{
+    margin: 50px;
+}
+.button_1{
+    background-color: black;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 43vw;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0;
+    margin-left: 20px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.button_1:hover{
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}

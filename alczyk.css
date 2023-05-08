@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30pt;
+}
+h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12pt;
+}
+p{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16pt;  
+    text-align: left;
+}
+.p4{
+    font-size: 12pt;
+}
+.parallax-container {
+    position: relative;
+    height: 650px; 
+    overflow: hidden;
+}
+.parallax-image {
+    position: absolute;
+    top: 100;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/Alczykvokl.jpeg');
+    background-size: cover;
+    background-position: center;
+    transform: translate3d(20, 20, 20);
+}
+.parallax-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    color: transparent;
+    transition: color 0.3s ease-in-out;
+}
+.parallax-container:hover .parallax-text {
+    color: rgb(255, 255, 255);
+  }
+.parallax-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+button{
+    background-color: black;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 43vw;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0;
+    margin-left: 20px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    border-radius: 3px;
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+}
+.lista{
+    display:list-item;
+    text-align: center;
+}
+.container{
+    display:flex;
+    text-align: center;
+ }
+.text{
+    margin: 30px;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+img{
+width: 800px;
+height: auto;
+margin-bottom: 50px;
+}
+footer{
+    margin-top: 100px;
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+    padding: 10px;
+}
+.item_3{
+    margin: 50px;
+}
+
